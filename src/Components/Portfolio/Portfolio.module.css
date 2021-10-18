@@ -1,0 +1,138 @@
+.portfolio_wrap{
+    background-color: #040221;
+    padding: 65px;
+}
+.portfolio_wrap span{
+    background-color: #040221;
+    color: white;
+    margin: 0;
+    font-size: 30px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+.portfolio_wrap span::after{
+    content: "_______________";
+    color: #FF0513;
+    position: absolute;
+    top: -11px;
+    left: 143%;
+}
+.portfolio_wrap ul{
+    display: flex;
+}
+.portfolio_wrap ul li{
+    background-color: #040221;
+    color: white;
+    list-style-type: none;
+    margin-right: 19px;
+    font-family: 'Poppins', sans-serif;
+}
+.portfolio_wrap ul li:hover{
+    color: #FF0513;
+}
+.portfolio_wrap ul a{
+    text-decoration: none;
+}
+.one {
+    display: flex;
+}
+.two{
+    display: flex;
+    margin-top: 70px;
+}
+.head_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow_button button{
+    background-color: #040221;
+    color: #FFFFFF;
+    padding: 16px 20px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.arrow_button button:hover{
+    background-color: #FF0513;
+    color: #FFFFFF;
+    border: 1px solid #FF0513;
+    font-family: 'Poppins', sans-serif;
+}
+.image_width img{
+    width: 370px;
+    height: 375px;
+    padding-left: 35px;
+}
+
+.portfolio_images img{
+    width: 321px;
+    height: 375px;
+    padding-left: 35px;
+    margin-top: 43px;
+}
+.overlay_contents{
+    position: relative;
+}
+.overlay_contents h2{
+    position: absolute;
+    left: 42px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    top: 229px;
+}
+.overlay_contents h3{
+    position: absolute;
+    left: 42px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    top: 249px;
+}
+.overlay_contents p{
+    position: absolute;
+    top: 310px;
+    left: 42px;
+    color: #FFFFFF;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.portfolio_images{
+    width: 33%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 35px;
+    transition: all .4s ease-in;
+}
+.portfolio_images:hover{
+    transform: scaleY(1.1);
+    transform-origin:bottom;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 89%;
+    height: 89%;
+    top: 44px;
+    background: #FF0513;
+    left: 35px;
+    opacity: 0;
+    border-radius: 26px 28px 32px 30px;
+}
+.overlay:hover{
+    opacity: .8;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width:991px) {
+    .portfolio_wrap span::after{
+        content: "____________";
+        color: #FF0513;
+        position: absolute;
+        top: -11px;
+        left: 143%;
+    }
+}

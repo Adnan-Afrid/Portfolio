@@ -1,0 +1,74 @@
+.form_wrap{
+    background-color: #0E0C38;
+    text-align: center;
+}
+.form_wrap h2{
+    color: #FFFFFF;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 8%;
+}
+.form_wrap p{
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+    font-size: 16px;
+}
+.form_contents{
+    text-align: center;
+}
+.form_contents input{
+    width: 354px;
+    height: 36px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 11px;
+}
+.form_wrap textarea{
+    width: 746px;
+    height: 73px;
+    border: none;
+    border-radius: 1px;
+    margin-top: 20px;
+    padding: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 18px;
+}
+.form_wrap select{
+    color: darkcyan;
+    width: 377px;
+    height: 57px;
+    border: none;
+    border-radius: 1px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+.form_wrap select option:first {
+    color: #999;
+}
+.hirebtn button{
+    border-radius: 49px;
+    padding: 15px 35px 15px 35px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid gray;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 12px;
+    margin-bottom: 70px;
+}
+.hirebtn button:hover{
+    background-color: #FF0513;
+    color: #FFFFFF;
+    border: 2px solid #FF0513;
+}

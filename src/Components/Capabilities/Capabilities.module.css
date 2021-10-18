@@ -1,0 +1,63 @@
+.capab_wrap{
+    background-color: #0E0C38;
+    position: relative;
+    padding-bottom: 13%;
+}
+.capab_wrap h2{
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.capab_wrap p{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 2;
+}
+.capab_wrap p::before{
+    content: "____________________________________";
+    position: absolute;
+    top: 9%;
+    left: 41%;
+    color: #FF0513 !important;
+    margin-top: 5px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.map_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+.map_content img{
+    margin-top: 20%;
+}
+.map_content h3{
+   color: #FFFFFF;
+    margin: 0;
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 21px;
+}
+.map_content h4{
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: 500;
+    padding: 30px;
+}
+@media only screen and (max-width:991px) {
+    .map_content h4{
+        color: #FFFFFF;
+        margin: 0;
+        font-weight: 500;
+        padding: 30px;
+        text-align: center;
+    }   
+}

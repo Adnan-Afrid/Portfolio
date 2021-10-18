@@ -1,0 +1,46 @@
+footer{
+    background-color: #040221;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+footer img{
+    width: 200px;
+}
+footer p{
+    margin-top: 23px;
+}
+footer .contents{
+    margin-top: 26px;
+}
+footer .contents span{
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px;
+    font-size: 18px;
+}
+footer p{
+    color: #FFFFFF;
+}
+footer .contents .after_line::after{
+    content: "|";
+    margin-left: 15px;
+}
+footer .social_icons{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+footer .social_icons span{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+footer hr{
+    display: block;
+    border: 0;
+    border-top: 1px solid #707070;
+}
+footer .copyright{
+    padding-top: 18px;
+}

@@ -1,0 +1,215 @@
+.client_wrap{
+    background-color: #040221;
+    margin: 0;
+    position: relative;
+    padding-bottom: 10%;
+}
+.client_wrap .para::before{
+    content: "__________________________";
+    position: absolute;
+    top: 89px;
+    left: 41%;
+    width: 17%;
+    color: #FF0513 !important;
+}
+.client_wrap h2{
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    padding-top: 59px;
+    font-weight: 600;
+}
+.client_wrap p{
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 43px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10%;
+    line-height: 1.8;
+}
+.client_contents{
+    display: flex;
+}
+.client_avatar{
+    width: 50%;
+}
+.client_avatar img{
+    width: 600px;
+}
+.client_details{
+    width: 50%;
+}
+.client_details p{
+    text-align: left;
+    line-height: 1.8;
+    font-size: 17px;
+    position: relative;
+}
+.client_details p::before{
+    content: url("./asset.png");
+    position: absolute;
+    left: 0%;
+    top: -73%;
+}
+.client_details p::after{
+    content: url("./asset.png");
+    position: absolute;
+    left: 50%;
+    top: 43%;
+}
+.client_details h5{
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+}
+.client_details h6{
+    color: gray;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Images width Start CSS */
+.avatar_wrapper .image_one img{
+    width: 90px !important;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.avatar_wrapper .image_two img{
+    width: 90px !important;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.avatar_wrapper .image_three img{
+    width: 90px !important;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.avatar_wrapper .image_four img{
+    width: 90px !important;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.avatar_wrapper .image_five img{
+    width: 90px !important;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.avatar_wrapper .image_six img{
+    width: 90px !important;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+/* Images width End CSS */
+
+
+/* Image Positioning Start CSS */
+.avatar_wrapper{
+    position: relative;
+}
+.image_one{
+    position: absolute;
+    left: 96px;
+    top: 12px;
+}
+.image_two{
+    position: absolute;
+    left: 270px;
+    top: 34px;
+}
+.image_three{
+    position: absolute;
+    left: 418px;
+    top: -38px;
+}
+.image_four{
+    position: absolute;
+    left: 122px;
+    top: 54%;
+}
+.image_five{
+    position: absolute;
+    left: 253px;
+    top: 77%;
+}
+.image_six{
+position: absolute;
+    left: 418px;
+    top: 66%;
+}
+/* Image Positioning End CSS */
+
+/* Images Hover Effect Start CSS */
+.avatar_wrapper .image_one img:hover{
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.avatar_wrapper .image_two img:hover{
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.avatar_wrapper .image_three img:hover{
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.avatar_wrapper .image_four img:hover{
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.avatar_wrapper .image_five img:hover{
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.avatar_wrapper .image_six img:hover{
+    border: 2px solid red;
+    border-radius: 50%;
+}
+/* Images Hover Effect End CSS */
+
+@media only screen and (max-width:991px) {
+    
+    .client_avatar img{
+        width: 450px;
+    }
+    .image_one{
+        position: absolute;
+        left: 56px;
+        top: 8px;
+    }
+    .image_two{
+        position: absolute;
+        left: 212px;
+        top: 34px;
+    }
+    .image_three{
+        position: absolute;
+        left: 348px;
+        top: -38px;
+    }
+    .image_four{
+        position: absolute;
+        left: 83px;
+        top: 51%;
+    }
+    .image_five{
+        position: absolute;
+        left: 203px;
+        top: 58%;    
+    }
+    .image_six{
+        position: absolute;
+        left: 332px;
+        top: 39%;    
+    }
+    .client_details p::after{
+        content: url("./asset.png");
+        position: absolute;
+        left: 50%;
+        top: 61%;
+    }  
+}

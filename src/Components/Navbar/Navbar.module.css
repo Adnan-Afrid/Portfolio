@@ -1,0 +1,125 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#0E0C38
+}
+nav{
+    margin-right: 54px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+/* nav ul li:hover{
+    background-color: #FF0513;
+} */
+.startedbtn{
+    margin-left: 40px;
+    border-radius: 49px;
+    padding: 14px 25px 14px 25px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0E0C38;
+    color: white;
+    border: 2px solid white;
+    font-size: 16px;
+}
+.startedbtn:hover{
+    background-color: #FF0513;
+    color: white;
+    border: 2px solid #FF0513;
+}
+.logo{
+    margin-left: 55px;
+}
+.logo img{
+    width: 170px;
+
+}
+
+/* Media Queries for Different Screen Sizes */
+@media only screen and (max-width:991px) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+        background-color:#0E0C38
+    }
+    nav{
+        margin-right: 27px;
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        list-style-type: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 21px;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    .startedbtn{
+        margin-left: 40px;
+        border-radius: 49px;
+        padding: 14px 25px 14px 25px;
+        font-family: 'Poppins', sans-serif;
+        background-color: #0E0C38;
+        color: white;
+        border: 2px solid white;
+        font-size: 16px;
+    }
+    .startedbtn:hover{
+        background-color: #FF0513;
+        color: white;
+        border: 2px solid #FF0513;
+    }
+    .logo{
+        margin-left: 55px;
+    }
+    .logo img{
+        width: 170px;
+    
+    }   
+}
+@media only screen and (max-width:767px) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+        background-color:#0E0C38
+    }
+    nav{
+        margin-right: 20px;
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        list-style-type: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 21px;
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    .startedbtn{
+        margin-left: 40px;
+        border-radius: 49px;
+        padding: 14px 25px 14px 25px;
+        font-family: 'Poppins', sans-serif;
+        background-color: #0E0C38;
+        color: white;
+        border: 2px solid white;
+        font-size: 10px;
+    }
+    .logo{
+        margin-left: 45px;
+    }
+    .logo img{
+        width: 135px;
+    }  
+}
